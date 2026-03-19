@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact | Dawnford Sales Ltd.</title>
+  <meta name="description" content="Get in touch with Dawnford Sales Ltd. for quotes, support, or questions about GPS, machine control, and surveying technology.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,700;1,9..40,400;1,9..40,500&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ========== NAVIGATION ========== -->
+  <nav class="nav">
+    <div class="nav__inner">
+      <a href="index.html" class="nav__logo">DS <span class="nav__logo-divider">|</span> DAWNFORD SALES</a>
+      <ul class="nav__links">
+        <li><a href="services.html" class="nav__link">SERVICES</a></li>
+        <li><a href="machine-control.html" class="nav__link">MACHINE CONTROL</a></li>
+        <li><a href="wiznet-vrs.html" class="nav__link">WIZNET VRS</a></li>
+        <li><a href="index.html#about" class="nav__link">ABOUT</a></li>
+      </ul>
+      <div class="nav__right">
+        <a href="tel:+12507721320" class="nav__phone">(250) 772-1320</a>
+        <a href="contact.html" class="nav__cta nav__cta--active">CONTACT</a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ========== CONTACT HERO ========== -->
+  <header class="hero hero--contact" style="min-height: 340px;">
+    <div class="hero__inner">
+      <span class="section-label section-label--light">GET IN TOUCH</span>
+      <h1 class="hero__heading">Contact Us</h1>
+      <p class="hero__subtitle">We'd love to hear from you. Reach out for quotes, support, or any questions about our products and services.</p>
+    </div>
+  </header>
+
+  <!-- ========== MAIN CONTENT ========== -->
+  <main>
+
+    <!-- Contact Content -->
+    <section class="section section--cream contact-content">
+      <div class="container">
+        <div class="split">
+
+          <!-- LEFT — Contact Info -->
+          <div class="split__text contact-info">
+            <div class="contact-info__block" style="margin-bottom: 40px;">
+              <span class="section-label">OFFICE</span>
+              <p style="margin-bottom: 0; color: var(--color-body-text); font-weight: 500;">Dawnford Sales Ltd.</p>
+              <p style="margin-bottom: 0; color: var(--color-muted);">#102A, 6683 Oldfield Road</p>
+              <p style="color: var(--color-muted);">Saanichton, BC, Canada</p>
+            </div>
+
+            <div class="contact-info__block" style="margin-bottom: 40px;">
+              <span class="section-label">PHONE</span>
+              <p><a href="tel:+12507721320" style="color: var(--color-body-text); font-weight: 500;">(250) 772-1320</a></p>
+            </div>
+
+            <div class="contact-info__block" style="margin-bottom: 40px;">
+              <span class="section-label">EMAIL</span>
+              <p><a href="mailto:info@dawnfordsales.com" style="color: var(--color-body-text); font-weight: 500;">info@dawnfordsales.com</a></p>
+            </div>
+
+            <div class="contact-info__block">
+              <span class="section-label">PARTNERS</span>
+              <p style="margin-bottom: 4px;"><strong>SiteWiz Surveys</strong> &middot; <a href="https://sitewizsurveys.com" style="color: var(--color-muted);">sitewizsurveys.com</a></p>
+              <p style="margin-bottom: 4px;"><strong>Central Island Rentals</strong> &middot; <a href="https://centralislandrentals.com" style="color: var(--color-muted);">centralislandrentals.com</a></p>
+              <p style="margin-bottom: 0;"><strong>WizNet VRS</strong> &middot; <a href="https://wiznetbc.com" style="color: var(--color-muted);">wiznetbc.com</a></p>
+            </div>
+          </div>
+
+          <!-- RIGHT — Contact Form -->
+          <div class="form contact-form">
+            <h3 style="font-family: var(--font-serif); color: var(--color-cream); font-size: 28px; margin-bottom: 36px;">Send us a message</h3>
+
+            <form action="#" method="post">
+              <div class="form__group" style="margin-bottom: 24px;">
+                <label for="contact-name" class="form__label">NAME</label>
+                <input type="text" id="contact-name" name="name" class="form__input" placeholder="Your full name" required style="background: transparent; border: none; border-bottom: 1px solid var(--color-cream-muted); border-radius: 0; padding: 14px 0;">
+              </div>
+
+              <div class="form__group" style="margin-bottom: 24px;">
+                <label for="contact-email" class="form__label">EMAIL</label>
+                <input type="email" id="contact-email" name="email" class="form__input" placeholder="your@email.com" required style="background: transparent; border: none; border-bottom: 1px solid var(--color-cream-muted); border-radius: 0; padding: 14px 0;">
+              </div>
+
+              <div class="form__group" style="margin-bottom: 24px;">
+                <label for="contact-phone" class="form__label">PHONE</label>
+                <input type="tel" id="contact-phone" name="phone" class="form__input" placeholder="(250) 000-0000" style="background: transparent; border: none; border-bottom: 1px solid var(--color-cream-muted); border-radius: 0; padding: 14px 0;">
+              </div>
+
+              <div class="form__group" style="margin-bottom: 32px;">
+                <label for="contact-message" class="form__label">MESSAGE</label>
+                <textarea id="contact-message" name="message" class="form__textarea" placeholder="Tell us about your project or question..." rows="5" required style="background: transparent; border: none; border-bottom: 1px solid var(--color-cream-muted); border-radius: 0; padding: 14px 0; resize: vertical;"></textarea>
+              </div>
+
+              <div class="form__actions">
+                <button type="submit" class="btn btn--outline-light" style="width: 100%;">SEND MESSAGE</button>
+              </div>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Google Map -->
+    <div class="map-section">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2638.5!2d-123.4019!3d48.5917!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDjCsDM1JzMwLjEiTiAxMjPCsDI0JzA2LjgiVw!5e0!3m2!1sen!2sca!4v1"
+        width="100%"
+        height="480"
+        style="border:0; display:block;"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Dawnford Sales location — 102A, 6683 Oldfield Road, Saanichton, BC">
+      </iframe>
+    </div>
+
+  </main>
+
+  <!-- ========== FOOTER ========== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <span class="footer__brand-name">DS | DAWNFORD SALES</span>
+          <p>Precision technology solutions for modern construction. Sales, rentals, support, and training across British Columbia.</p>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">COMPANY</h4>
+          <ul>
+            <li><a href="index.html#about" class="footer__link">About</a></li>
+            <li><a href="services.html" class="footer__link">Services</a></li>
+            <li><a href="machine-control.html" class="footer__link">Machine Control</a></li>
+            <li><a href="wiznet-vrs.html" class="footer__link">WizNet VRS</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">RESOURCES</h4>
+          <ul>
+            <li><a href="how-to-videos.html" class="footer__link">How-To Videos</a></li>
+            <li><a href="used-inventory.html" class="footer__link">Used Inventory</a></li>
+            <li><a href="affiliates.html" class="footer__link">Affiliates</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h4 class="footer__heading">CONTACT</h4>
+          <ul>
+            <li><a href="tel:+12507721320" class="footer__link">(250) 772-1320</a></li>
+            <li><a href="mailto:info@dawnfordsales.com" class="footer__link">info@dawnfordsales.com</a></li>
+            <li><address class="footer__link" style="font-style: normal;">#102A 6683 Oldfield Rd<br>Saanichton BC Canada</address></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <p>&copy; 2025 Dawnford Sales Ltd. All rights reserved.</p>
+        <p>
+          <a href="privacy.html" class="footer__link" style="display: inline;">Privacy Policy</a>
+          <span style="margin: 0 8px; opacity: 0.4;">&middot;</span>
+          <a href="terms.html" class="footer__link" style="display: inline;">Terms &amp; Conditions</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
