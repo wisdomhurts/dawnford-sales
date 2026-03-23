@@ -5,138 +5,119 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Services | Dawnford Sales Ltd.</title>
   <meta name="description" content="GPS equipment sales, rentals, installation, training, 3D modeling and drone services from Dawnford Sales Ltd.">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <!-- ========== NAVIGATION ========== -->
-  <nav class="nav">
+  <nav class="nav nav--dark">
     <div class="nav__inner">
-      <a href="index.html" class="nav__logo">DS <span class="nav__logo-divider">|</span> DAWNFORD SALES</a>
+      <a href="index.html" class="nav__logo">DS <span class="nav__logo-divider">|</span> <span class="nav__logo-sub">Dawnford Sales</span></a>
       <ul class="nav__links">
-        <li><a href="services.html" class="nav__link nav__link--active">SERVICES</a></li>
-        <li><a href="machine-control.html" class="nav__link">MACHINE CONTROL</a></li>
-        <li><a href="wiznet-vrs.html" class="nav__link">WIZNET VRS</a></li>
-        <li><a href="index.html#about" class="nav__link">ABOUT</a></li>
+        <li><a href="services.html" class="nav__link">Services</a></li>
+        <li><a href="machine-control.html" class="nav__link">Machine Control</a></li>
+        <li><a href="wiznet-vrs.html" class="nav__link">WizNet VRS</a></li>
+        <li><a href="index.html#about" class="nav__link">About</a></li>
       </ul>
       <div class="nav__right">
         <a href="tel:+12507721320" class="nav__phone">(250) 772-1320</a>
-        <a href="contact.html" class="nav__cta">CONTACT</a>
+        <a href="contact.html" class="nav__cta">Contact</a>
       </div>
     </div>
   </nav>
 
-  <!-- ========== SERVICES HERO ========== -->
-  <header class="hero hero--services" style="min-height: 400px;">
-    <div class="hero__inner">
-      <span class="section-label section-label--light">OUR SERVICES</span>
-      <h1 class="hero__heading">Everything you need, from concept to completion.</h1>
-      <p class="hero__subtitle">We offer a wide range of services, each one designed to complement the other. Our team has experience and passion.</p>
+  <header class="hero hero--dark">
+    <div class="container">
+      <div class="hero__label">Our Services</div>
+      <h1>Everything you need, from concept to completion.</h1>
+      <p class="hero__subtitle">A full range of services designed to complement each other. Our team has the experience and passion to back it up.</p>
     </div>
   </header>
 
-  <!-- ========== MAIN CONTENT ========== -->
   <main>
 
-    <!-- Service 1 — Sales & Rentals -->
-    <section class="section section--off-white">
+    <section class="section section--warm">
       <div class="container">
         <div class="split">
           <div class="split__text">
-            <span class="section-label">SALES &amp; RENTALS</span>
+            <div class="label">Sales &amp; Rentals</div>
             <h2>Equipment for every project.</h2>
-            <p>GPS receivers, total stations, machine control systems, and accessories &mdash; available for purchase or flexible rental terms. We carry Topcon, Leica, and Trimble equipment.</p>
-            <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px;">
-              <span class="tag">TOPCON</span>
-              <span class="tag">LEICA</span>
-              <span class="tag">TRIMBLE</span>
+            <p>GPS receivers, total stations, machine control systems, and accessories — available for purchase or flexible rental terms. We carry Topcon, Leica, and Trimble equipment.</p>
+            <div class="tags" style="margin-top: 24px;">
+              <span class="tag">Topcon</span>
+              <span class="tag">Leica</span>
+              <span class="tag">Trimble</span>
               <span class="tag">DJI</span>
             </div>
           </div>
           <div class="split__image">
-            <img src="images/field_equipment.jpg" alt="GPS and surveying equipment displayed in the field" loading="lazy" width="600" height="400">
+            <img src="images/field_equipment.jpg" alt="GPS and surveying equipment in the field" loading="lazy" width="600" height="400">
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Service 2 — Installation & Support -->
-    <section class="section section--cream">
+    <section class="section section--stone">
       <div class="container">
         <div class="split">
           <div class="split__image">
-            <img src="images/software_screenshot.png" alt="Software interface screenshot showing calibration tools" loading="lazy" width="600" height="400">
+            <img src="images/software_screenshot.png" alt="Calibration software interface" loading="lazy" width="600" height="400">
           </div>
           <div class="split__text">
-            <span class="section-label">INSTALLATION &amp; SUPPORT</span>
+            <div class="label">Installation &amp; Support</div>
             <h2>Expert service, on-site or remote.</h2>
             <p>On-site installation, calibration and dedicated technical support. Service calls available when you need immediate assistance.</p>
-            <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px;">
-              <span class="tag">ON-SITE</span>
-              <span class="tag">REMOTE VIA ANYDESK</span>
+            <div class="tags" style="margin-top: 24px;">
+              <span class="tag">On-Site</span>
+              <span class="tag">Remote via AnyDesk</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Service 3 — Training -->
-    <section class="section section--off-white">
+    <section class="section section--warm">
       <div class="container">
         <div class="split">
           <div class="split__text">
-            <span class="section-label">TRAINING</span>
+            <div class="label">Training</div>
             <h2>Get your team up to speed.</h2>
             <p>Hands-on training programs and how-to resources for Topcon, Leica, and Trimble systems. We offer over 30 video tutorials covering everything from basic setup to advanced workflows.</p>
-            <ul style="margin-top: 24px; list-style: none; padding: 0;">
-              <li style="padding: 8px 0; border-bottom: 1px solid rgba(22,45,36,0.08); color: var(--color-muted);">Pocket 3D V15 &amp; V13 tutorials</li>
-              <li style="padding: 8px 0; border-bottom: 1px solid rgba(22,45,36,0.08); color: var(--color-muted);">Topcon Field setup &amp; calibration</li>
-              <li style="padding: 8px 0; border-bottom: 1px solid rgba(22,45,36,0.08); color: var(--color-muted);">WizNet login guides for all platforms</li>
-              <li style="padding: 8px 0; color: var(--color-muted);">Stakeout, volumes, cutsheets &amp; more</li>
-            </ul>
           </div>
-          <div style="display: flex; align-items: center; justify-content: center;">
-            <div style="text-align: center;">
-              <span style="font-family: var(--font-serif); font-size: clamp(48px, 5vw, 72px); color: var(--color-dark-green); line-height: 1; display: block;">30+</span>
-              <span class="section-label" style="margin-top: 12px;">VIDEO TUTORIALS</span>
-            </div>
+          <div style="text-align: center;">
+            <span class="stat__number" style="font-size: clamp(48px, 5vw, 72px);">30+</span>
+            <div class="label" style="justify-content: center; margin-top: 12px;">Video Tutorials</div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- Service 4 — 3D Modeling & Drones -->
-    <section class="section section--cream">
+    <section class="section section--stone">
       <div class="container">
         <div class="split">
           <div class="split__image">
-            <img src="images/jobsite.jpg" alt="Aerial view of a construction jobsite" loading="lazy" width="600" height="400">
+            <img src="images/jobsite.jpg" alt="Construction jobsite aerial view" loading="lazy" width="600" height="400">
           </div>
           <div class="split__text">
-            <span class="section-label">3D MODELING &amp; DRONES</span>
+            <div class="label">3D Modeling &amp; Drones</div>
             <h2>See your site from every angle.</h2>
             <p>From 3D site renderings and volumetric calculations to aerial drone surveys, we provide the data you need to plan, execute, and verify every phase of your project.</p>
-            <div style="display: flex; flex-wrap: wrap; gap: 8px; margin-top: 24px;">
-              <span class="tag">3D RENDERINGS</span>
-              <span class="tag">DRONES</span>
-              <span class="tag">VOLUMES</span>
-              <span class="tag">SURVEY</span>
+            <div class="tags" style="margin-top: 24px;">
+              <span class="tag">3D Renderings</span>
+              <span class="tag">Drones</span>
+              <span class="tag">Volumes</span>
+              <span class="tag">Survey</span>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- CTA Section -->
     <section class="section section--dark" style="text-align: center;">
       <div class="container" style="max-width: 800px;">
         <h2 style="margin-bottom: 20px;">Ready to equip your next project?</h2>
         <p class="lead" style="margin-bottom: 40px;">Get in touch for a custom quote on sales, rentals, or service packages tailored to your needs.</p>
         <div style="display: flex; justify-content: center; gap: 16px; flex-wrap: wrap;">
-          <a href="contact.html" class="btn btn--light">REQUEST A QUOTE</a>
+          <a href="contact.html" class="btn btn--light">Request a Quote</a>
           <a href="tel:+12507721320" class="btn btn--outline-light">(250) 772-1320</a>
         </div>
       </div>
@@ -144,17 +125,15 @@
 
   </main>
 
-  <!-- ========== FOOTER ========== -->
   <footer class="footer">
     <div class="container">
       <div class="footer__grid">
         <div class="footer__brand">
-          <span class="footer__brand-name">DS | DAWNFORD SALES</span>
-          <p>Precision technology solutions for modern construction. Sales, rentals, support, and training across British Columbia.</p>
+          <span class="footer__brand-name">DS | Dawnford Sales</span>
+          <p>Precision technology solutions for modern construction across British Columbia.</p>
         </div>
-
         <div>
-          <h4 class="footer__heading">COMPANY</h4>
+          <h4 class="footer__heading">Company</h4>
           <ul>
             <li><a href="index.html#about" class="footer__link">About</a></li>
             <li><a href="services.html" class="footer__link">Services</a></li>
@@ -162,33 +141,26 @@
             <li><a href="wiznet-vrs.html" class="footer__link">WizNet VRS</a></li>
           </ul>
         </div>
-
         <div>
-          <h4 class="footer__heading">RESOURCES</h4>
+          <h4 class="footer__heading">Resources</h4>
           <ul>
             <li><a href="how-to-videos.html" class="footer__link">How-To Videos</a></li>
             <li><a href="used-inventory.html" class="footer__link">Used Inventory</a></li>
             <li><a href="affiliates.html" class="footer__link">Affiliates</a></li>
           </ul>
         </div>
-
         <div>
-          <h4 class="footer__heading">CONTACT</h4>
+          <h4 class="footer__heading">Contact</h4>
           <ul>
             <li><a href="tel:+12507721320" class="footer__link">(250) 772-1320</a></li>
             <li><a href="mailto:info@dawnfordsales.com" class="footer__link">info@dawnfordsales.com</a></li>
-            <li><address class="footer__link" style="font-style: normal;">#102A 6683 Oldfield Rd<br>Saanichton BC Canada</address></li>
+            <li><address class="footer__link" style="font-style: normal;">#102A 6683 Oldfield Rd<br>Saanichton BC</address></li>
           </ul>
         </div>
       </div>
-
       <div class="footer__bottom">
         <p>&copy; 2025 Dawnford Sales Ltd. All rights reserved.</p>
-        <p>
-          <a href="privacy.html" class="footer__link" style="display: inline;">Privacy Policy</a>
-          <span style="margin: 0 8px; opacity: 0.4;">&middot;</span>
-          <a href="terms.html" class="footer__link" style="display: inline;">Terms &amp; Conditions</a>
-        </p>
+        <div><a href="privacy.html">Privacy</a><span style="margin: 0 12px;">&middot;</span><a href="terms.html">Terms</a></div>
       </div>
     </div>
   </footer>
