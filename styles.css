@@ -163,6 +163,10 @@ p:last-child {
   color: var(--color-muted);
 }
 
+.section--dark .lead {
+  color: rgba(245, 232, 209, 0.55);
+}
+
 .serif {
   font-family: var(--font-serif);
 }
@@ -226,6 +230,7 @@ p:last-child {
   right: 0;
   z-index: 1000;
   padding: 24px 0;
+  background-color: var(--color-dark-green);
   transition: background-color var(--duration) var(--ease-luxury),
               padding var(--duration) var(--ease-luxury),
               box-shadow var(--duration) var(--ease-luxury);
@@ -290,10 +295,20 @@ p:last-child {
 }
 
 .nav__logo-divider {
+  display: inline-block;
   width: 1px;
-  height: 18px;
+  height: 14px;
   background-color: currentColor;
   opacity: 0.35;
+  vertical-align: middle;
+  margin: 0 4px;
+}
+
+/* Horizontal divider */
+.divider {
+  border: none;
+  height: 1px;
+  background-color: rgba(22, 45, 36, 0.1);
 }
 
 /* Links */
@@ -398,6 +413,63 @@ p:last-child {
   display: flex;
   align-items: flex-end;
   overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding-top: 80px;
+}
+
+/* Nav right section */
+.nav__right {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+/* Tag pills */
+.tag {
+  display: inline-block;
+  font-family: var(--font-sans);
+  font-size: 11px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  padding: 8px 16px;
+  border-radius: var(--radius-pill);
+  border: 1px solid rgba(245, 232, 209, 0.3);
+  color: var(--color-cream);
+  transition: all var(--duration-fast) var(--ease-luxury);
+}
+
+.tag:hover {
+  background-color: rgba(245, 232, 209, 0.12);
+  border-color: rgba(245, 232, 209, 0.5);
+}
+
+/* Tags on light backgrounds */
+.section--cream .tag,
+.section--off-white .tag,
+.section .tag {
+  border-color: rgba(22, 45, 36, 0.2);
+  color: var(--color-dark-green);
+}
+
+.section--cream .tag:hover,
+.section--off-white .tag:hover,
+.section .tag:hover {
+  background-color: rgba(22, 45, 36, 0.06);
+  border-color: rgba(22, 45, 36, 0.4);
+}
+
+/* Tags inside cards stay light */
+.card .tag {
+  border-color: rgba(245, 232, 209, 0.3);
+  color: var(--color-cream);
+}
+
+.card .tag:hover {
+  background-color: rgba(245, 232, 209, 0.12);
+  border-color: rgba(245, 232, 209, 0.5);
 }
 
 .hero__background {
@@ -719,6 +791,7 @@ p:last-child {
 }
 
 .footer__brand-name {
+  display: block;
   font-family: var(--font-sans);
   font-size: 12px;
   font-weight: 600;
@@ -1019,37 +1092,16 @@ p:last-child {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  aspect-ratio: 4 / 3;
 }
 
 /* ==========================================================================
    15. Additional Components
    ========================================================================== */
 
-/* Divider */
-.divider {
-  height: 1px;
-  background-color: rgba(22, 45, 36, 0.1);
-  border: none;
-  margin: 0;
-}
-
+/* Divider (light variant) */
 .divider--light {
   background-color: rgba(245, 232, 209, 0.12);
-}
-
-/* Tag / Chip */
-.tag {
-  display: inline-flex;
-  align-items: center;
-  font-family: var(--font-sans);
-  font-size: 11px;
-  font-weight: 600;
-  letter-spacing: 0.12em;
-  text-transform: uppercase;
-  padding: 6px 16px;
-  border-radius: var(--radius-pill);
-  background-color: rgba(22, 45, 36, 0.06);
-  color: var(--color-accent-label);
 }
 
 /* Scroll indicator */
@@ -1331,12 +1383,6 @@ p:last-child {
 /* ==========================================================================
    19. Nav — Right Side (Phone + CTA)
    ========================================================================== */
-.nav__right {
-  display: flex;
-  align-items: center;
-  gap: 24px;
-}
-
 .nav__phone {
   font-family: var(--font-sans);
   font-size: 13px;
